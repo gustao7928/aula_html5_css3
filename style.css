@@ -52,6 +52,7 @@ aside{
     text-align: center;
     padding: 20px;
     font-family: "Open sans Condensed", sans-serif;
+    
 }
 
 nav h1{
@@ -60,6 +61,21 @@ nav h1{
 
 .redes-sociais li{
     display: inline-block;
+}
+
+.redes-sociais a{
+    display: inline-block;
+    width: 28px;
+    height: 29px;
+    text-indent: -99999px;
+}
+
+.github{
+    background-image: url(/assencs/fluidicon.png);
+}
+
+.facebook{
+    background-image: url(/assencs/face.png);
 }
 
 footer{
